@@ -45,7 +45,6 @@ const HomeScreen: React.FC = () => {
     }
   };
 
-  
 
   // Calculate totals
   const totalPrice = selectedItems.reduce((sum, item) => sum + item.price, 0);
