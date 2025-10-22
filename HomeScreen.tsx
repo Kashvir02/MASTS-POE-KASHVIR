@@ -45,6 +45,7 @@ const HomeScreen: React.FC = () => {
     }
   };
 
+  
 
 
   // Calculate totals
