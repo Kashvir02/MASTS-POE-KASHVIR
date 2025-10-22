@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react";  
 import {
   View,
   Text,
@@ -14,6 +14,7 @@ interface MenuItem {
   price: number;
   course: "Starter" | "Main" | "Dessert";
 }
+
 
 // ------------------ Menu Data ------------------
 const menuItems: MenuItem[] = [
