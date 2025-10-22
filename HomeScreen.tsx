@@ -18,6 +18,7 @@ interface MenuItem {
 
 // ------------------ Menu Data ------------------
 const menuItems: MenuItem[] = [
+
   { id: "1", name: "Calamari", price: 280, course: "Starter" },
   { id: "2", name: "Chicken Wings", price: 150, course: "Starter" },
   { id: "3", name: "Hummus with Flatbread", price: 220, course: "Starter" },
@@ -43,6 +44,8 @@ const HomeScreen: React.FC = () => {
       setSelectedItems((prev) => [...prev, item]);
     }
   };
+
+  
 
   // Calculate totals
   const totalPrice = selectedItems.reduce((sum, item) => sum + item.price, 0);
